@@ -1,0 +1,33 @@
+html, body{
+margin: 0;
+padding: 0;}
+
+#fake-page {
+	width:100%;
+	height:100%;
+	bottom: 0px;
+	z-index: 3;
+	background: #ffeb41;
+	position: fixed;
+	overflow: hidden;
+}
+
+#reveal-page{
+	width:100%;
+	height:100%;
+	bottom: 0px;
+	/*background: #ffeb41;*/
+	position: fixed;
+}
+
+#youtubeVid{
+	position: fixed; 
+	z-index: -99; 
+	width: 100%;
+	height: 100%;
+	-webkit-filter: blur(5px);
+	-moz-filter: blur(5px);
+	-o-filter: blur(5px);
+	-ms-filter: blur(5px);
+	filter: blur(5px);
+}
