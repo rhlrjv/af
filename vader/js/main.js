@@ -4,7 +4,7 @@ $(function(){
 
 	$("#fake-page").on("click", function(event){
 		event.preventDefault;
-		revealPrank();
+		setTimeout(revealPrank,2000);
 	});
 
 	setTimeout(revealPrank,7000); // 7 sec timeout:P
@@ -19,7 +19,7 @@ $(function(){
 });
 
 function revealPrank(){
-	 $( "#fake-page" ).hide( "pulsate", {}, 1000, callback );
+	 $( "#fake-page" ).hide( "shake", {}, 1000, callback );
 };
 
 function callback() {
