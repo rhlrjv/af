@@ -6,6 +6,13 @@ $(function(){
 
 	setTimeout(revealPrank,5000); //timeout:P
 
+	$( ".imp" ).hover(
+	  function() {
+	    $( "#blur-layer" ).css("opacity", "0.7");
+	  }, function() {
+	    $( "#blur-layer" ).css("opacity", "0.1");
+	  }
+	);
 });
 
 function revealPrank(){
