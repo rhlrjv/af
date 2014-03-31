@@ -1,4 +1,7 @@
 $(function(){
+
+	$("#share-pannel").hide();
+
 	$("#fake-page").on("click", function(event){
 		event.preventDefault;
 		revealPrank();
@@ -22,5 +25,10 @@ function revealPrank(){
 function callback() {
   setTimeout(function() {
     $( "#fake-page" ).removeAttr( "style" ).hide();
-  }, 1000 );
+    $("#share-pannel").show( "clip", {}, 500, callback2 );
+  }, 5000 );
 };
+
+function callback2(){
+	$("#share-pannel").show();
+}

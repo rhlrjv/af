@@ -94,7 +94,7 @@ header h1{
 }
 
 #share-pannel{
-	height : 25%;
+	height : 40%;
 	width: 1060px;
 	bottom : 0px;
 	position: fixed;
@@ -151,6 +151,59 @@ header h1{
 	font-family:"Roboto", sans-serif;
 	color : #dd4b3b;
 	text-shadow: 1px 1px #fff;
+}
+
+.views{
+	width : 330px;
+	height : 100px;
+	float:left;
+	margin: 0px 10px;
+	background: #000;
+	border: 1px;
+	border-style:solid;
+	border-color:#fff;
+	border-radius: 5px;
+	overflow: hidden;
+	color : #fff;
+	text-shadow: 2px 2px #000;
+	font-family:"Roboto", sans-serif;
+	font-size: 20px;
+}
+
+.views:hover{
+	color : #dd4b3b;
+}
+
+.right{
+	float:right;
+}
+
+.clear{
+	clear: both;
+}
+
+.bg1{
+	background:url('https://lh3.ggpht.com/DLDifF6R6ETGoHBPAfEDcwbRnZiTvty074hd0WQuRJug7RbfR7ihrkZXgt5zACKejbL6=s512') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bg2{
+	background:url('images/vader.jpg') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bg3{
+	background:url('images/cat.png') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 @font-face {
