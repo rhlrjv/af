@@ -10,9 +10,10 @@ p, h1{
 	text-align: justify;
 }
 
-a{
+a, a:visited{
 	/*font-family: Georgia, serif;*/
 	cursor: pointer;
+	color: #fff;
 }
 
 img{
