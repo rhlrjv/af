@@ -4,7 +4,7 @@ $(function(){
 
 	$("#fake-page").on("click", function(event){
 		event.preventDefault;
-		setTimeout(revealPrank,2000);
+		setTimeout(revealPrank,1000);
 	});
 
 	setTimeout(revealPrank,7000); // 7 sec timeout:P
@@ -26,7 +26,7 @@ function callback() {
   setTimeout(function() {
     $( "#fake-page" ).removeAttr( "style" ).hide();
     $("#share-pannel").show( "clip", {}, 500, callback2 );
-  }, 5000 );
+  }, 1000 );
 };
 
 function callback2(){
