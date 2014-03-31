@@ -7,7 +7,7 @@ $(function(){
 		setTimeout(revealPrank,1000);
 	});
 
-	setTimeout(revealPrank,7000); // 7 sec timeout:P
+	setTimeout(revealPrank,10000); // 7 sec timeout:P
 
 	$( ".imp" ).hover(
 	  function() {
